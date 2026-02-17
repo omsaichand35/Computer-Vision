@@ -1,0 +1,30 @@
+# Python virtual environments
+env/
+env1/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.pyproj
+*.pyproj.user
+*.sln
+
+# Output files
+output/
+*.yml
+
+# OS
+.DS_Store
+Thumbs.db
