@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omsai\\opencv\\FaceDetection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6686CD2C-A3A5-4110-99B4-56B91F754A2C}|FaceDetectionModule\\FaceDetectionModule.pyproj|C:\\Users\\omsai\\opencv\\FaceDetection\\FaceDetectionModule\\FaceDetectionModule.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6686CD2C-A3A5-4110-99B4-56B91F754A2C}|FaceDetectionModule\\FaceDetectionModule.pyproj|solutionrelative:FaceDetectionModule\\FaceDetectionModule.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4939B20-8D81-471D-A841-B7A4FF7F5675}|FaceDetection\\FaceDetection.pyproj|C:\\Users\\omsai\\opencv\\FaceDetection\\FaceDetection\\FaceDetection.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D4939B20-8D81-471D-A841-B7A4FF7F5675}|FaceDetection\\FaceDetection.pyproj|solutionrelative:FaceDetection\\FaceDetection.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FaceDetection.py",
+              "DocumentMoniker": "C:\\Users\\omsai\\opencv\\FaceDetection\\FaceDetection\\FaceDetection.py",
+              "RelativeDocumentMoniker": "FaceDetection\\FaceDetection.py",
+              "ToolTip": "C:\\Users\\omsai\\opencv\\FaceDetection\\FaceDetection\\FaceDetection.py",
+              "RelativeToolTip": "FaceDetection\\FaceDetection.py",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwC4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-03T08:39:43.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FaceDetectionModule.py",
+              "DocumentMoniker": "C:\\Users\\omsai\\opencv\\FaceDetection\\FaceDetectionModule\\FaceDetectionModule.py",
+              "RelativeDocumentMoniker": "FaceDetectionModule\\FaceDetectionModule.py",
+              "ToolTip": "C:\\Users\\omsai\\opencv\\FaceDetection\\FaceDetectionModule\\FaceDetectionModule.py",
+              "RelativeToolTip": "FaceDetectionModule\\FaceDetectionModule.py",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-03T12:25:39.63Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
