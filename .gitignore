@@ -25,6 +25,11 @@ __pycache__/
 output/
 *.yml
 
+# Model files (too large)
+models/
+*.pth
+*.pt
+
 # OS
 .DS_Store
 Thumbs.db
