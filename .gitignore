@@ -23,6 +23,7 @@ __pycache__/
 
 # Output files
 output/
+outputs/
 *.yml
 
 # Model files (too large)
@@ -33,3 +34,10 @@ models/
 # OS
 .DS_Store
 Thumbs.db
+
+# Project generated data files
+*.npy
+cache/
+features/final/
+features/smoothed/
+time_series/
