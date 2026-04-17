@@ -1,4 +1,4 @@
-# Python virtual environments
+﻿# Python virtual environments
 env/
 env1/
 venv/
@@ -41,3 +41,9 @@ cache/
 features/final/
 features/smoothed/
 time_series/
+
+SegFormer/data/
+SegFormer/runs/
+SegFormer/outputs/
+SegFormer/__pycache__/
+SegFormer/.venv/

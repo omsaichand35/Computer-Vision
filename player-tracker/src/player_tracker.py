@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load video
-cap = cv.VideoCapture("../../data/vide0-2.mp4")
+cap = cv.VideoCapture("../../SegFormer/data/vide0-2.mp4")
 
 # Read first frame
 ret, frame = cap.read()
