@@ -15,7 +15,7 @@ else:
 
 RAW_DIR = BASE_DIR / "data" / "raw"
 
-MODEL_NAME = "nvidia/segformer-b0-finetuned-ade-512-512"
+MODEL_NAME = "nvidia/segformer-b5-finetuned-ade-640-640"
 NUM_CLASSES = 7
 CLASS_NAMES = [
 	"non_change",

@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.git
+.gitignore
+.env
+
+# Model outputs and data
+outputs/
+runs/
+data/
+# Or if you want to keep the directory structure but ignore contents:
+# data/*
+# !data/.gitkeep
+
+# Exclude any local Jupyter notebooks or temp files if present
+*.ipynb
+.ipynb_checkpoints/
