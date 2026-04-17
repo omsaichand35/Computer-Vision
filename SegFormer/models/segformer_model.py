@@ -1,5 +1,3 @@
-import os
-
 import torch
 import torch.nn as nn
 from transformers import SegformerForSemanticSegmentation
@@ -14,24 +12,11 @@ class SegFormerChange(nn.Module):
         if model_name is None:
             model_name = config.MODEL_NAME
 
-        os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")
-
-        try:
-            self.model = SegformerForSemanticSegmentation.from_pretrained(
-                model_name,
-                num_labels=num_classes,
-                ignore_mismatched_sizes=True,
-                use_safetensors=True,
-            )
-        except ValueError as error:
-            error_msg = str(error)
-            if "torch.load" in error_msg and "at least v2.6" in error_msg:
-                raise RuntimeError(
-                    "Failed to load model weights safely. "
-                    "Please either: (1) upgrade torch to >=2.6, or "
-                    "(2) use a checkpoint/repo that provides safetensors weights."
-                ) from error
-            raise
+        self.model = SegformerForSemanticSegmentation.from_pretrained(
+            model_name,
+            num_labels=num_classes,
+            ignore_mismatched_sizes=True
+        )
 
         # Modify first layer (3 → 6 channels)
         old_conv = self.model.segformer.encoder.patch_embeddings[0].proj
