@@ -1,0 +1,7 @@
+Class 0 → non_change → Black
+Class 1 → low_vegetation → Green
+Class 2 → nvg_surface → Tan/Brown
+Class 3 → tree → Dark Green
+Class 4 → water → Blue
+Class 5 → building → Red
+Class 6 → playground → Yellow/Gold
